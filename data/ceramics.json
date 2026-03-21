@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ceramic-vessel-1",
+    "title": "Vessel N°1",
+    "thumbnail": "",
+    "images": [],
+    "description": "A hand-thrown stoneware vessel with an organic form inspired by natural erosion patterns. The surface features a matte glaze with subtle variations in tone, creating a sense of depth and movement.",
+    "details": {
+      "year": "2025",
+      "dimensions": "18 × 12 × 12 cm",
+      "material": "Stoneware, matte glaze"
+    }
+  },
+  {
+    "id": "ceramic-vessel-2",
+    "title": "Vessel N°2",
+    "thumbnail": "",
+    "images": [],
+    "description": "A sculptural ceramic piece exploring the boundaries between functional pottery and abstract art. Its asymmetric silhouette draws from geological formations.",
+    "details": {
+      "year": "2025",
+      "dimensions": "22 × 15 × 14 cm",
+      "material": "Porcelain, ash glaze"
+    }
+  },
+  {
+    "id": "ceramic-bowl-1",
+    "title": "Erosion Bowl",
+    "thumbnail": "",
+    "images": [],
+    "description": "A wide, shallow bowl with deliberately rough edges that suggest natural weathering. The interior is smooth and glazed, contrasting with the raw exterior.",
+    "details": {
+      "year": "2024",
+      "dimensions": "8 × 25 × 25 cm",
+      "material": "Stoneware, mixed glazes"
+    }
+  },
+  {
+    "id": "ceramic-sculpture-1",
+    "title": "Fragment Series I",
+    "thumbnail": "",
+    "images": [],
+    "description": "Part of an ongoing series examining the beauty of broken and reconstructed forms. Each fragment is individually fired and reassembled with visible joins.",
+    "details": {
+      "year": "2024",
+      "dimensions": "30 × 20 × 15 cm",
+      "material": "Stoneware, gold kintsugi"
+    }
+  },
+  {
+    "id": "ceramic-set-1",
+    "title": "Tea Set — Quiet Morning",
+    "thumbnail": "",
+    "images": [],
+    "description": "A minimal tea set consisting of a teapot and four cups. The soft, rounded forms and warm earth tones evoke a sense of calm and ritual.",
+    "details": {
+      "year": "2024",
+      "dimensions": "Various",
+      "material": "Stoneware, celadon glaze"
+    }
+  },
+  {
+    "id": "ceramic-vase-1",
+    "title": "Tall Vase — Stratum",
+    "thumbnail": "",
+    "images": [],
+    "description": "A tall, narrow vase with horizontal texture lines reminiscent of geological strata. The surface shifts between matte and semi-gloss finishes.",
+    "details": {
+      "year": "2023",
+      "dimensions": "40 × 12 × 12 cm",
+      "material": "Stoneware, layered glazes"
+    }
+  }
+]

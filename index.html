@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio — Artist</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://cdn.jsdelivr.net/npm/three/build/three.module.js",
+          "three/addons/": "https://cdn.jsdelivr.net/npm/three/examples/jsm/"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html" class="header__logo">
+        <img src="images/ui/logo.png.webp" alt="Logo">
+      </a>
+      <nav class="header__nav">
+        <a href="#ceramics">ceramics</a>
+        <a href="#dolls">dolls</a>
+        <a href="#about">about</a>
+        <a href="#contact">contact</a>
+      </nav>
+      <button class="header__burger" aria-label="Menu">
+        <img src="images/ui/burger-1.png.webp" alt="">
+        <img src="images/ui/burger-2.png.webp" alt="">
+        <img src="images/ui/burger-3.png.webp" alt="">
+      </button>
+    </header>
+
+    <main class="main">
+      <!-- Three.js -->
+      <section class="threejs-section">
+        <div id="three-canvas" class="threejs-container"></div>
+      </section>
+
+      <!-- Ceramics -->
+      <section id="ceramics" class="section">
+        <div class="container">
+          <div class="section__header">
+            <h2 class="section__title">Ceramics</h2>
+            <p class="section__subtitle">Handmade vessels, sculptures, and functional pieces</p>
+          </div>
+          <div id="ceramics-grid" class="cards-grid"></div>
+        </div>
+      </section>
+
+      <!-- Dolls -->
+      <section id="dolls" class="section">
+        <div class="container">
+          <div class="section__header">
+            <h2 class="section__title">Dolls</h2>
+            <p class="section__subtitle">Figures and characters crafted from clay, fabric, and imagination</p>
+          </div>
+          <div id="dolls-grid" class="cards-grid"></div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="section about-section">
+        <div class="container">
+          <div class="section__header">
+            <h2 class="section__title">About</h2>
+          </div>
+          <div class="about-content">
+            <p>Artist bio and background — placeholder text. Replace with your story, education, exhibitions, and artistic philosophy.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="section contact-section">
+        <div class="container">
+          <div class="section__header">
+            <h2 class="section__title">Contact</h2>
+          </div>
+          <div class="contact-content">
+            <p>Interested in a piece or collaboration? Feel free to reach out through any of the channels below.</p>
+            <div class="contact-links">
+              <a href="mailto:artist@example.com" class="contact-link">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                Email
+              </a>
+              <a href="https://instagram.com" target="_blank" rel="noopener" class="contact-link">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+                Instagram
+              </a>
+              <a href="https://t.me/" target="_blank" rel="noopener" class="contact-link">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m22 2-7 20-4-9-9-4z"/><path d="M22 2 11 13"/></svg>
+                Telegram
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 Artist. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>

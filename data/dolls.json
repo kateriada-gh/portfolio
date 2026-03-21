@@ -1,0 +1,74 @@
+[
+  {
+    "id": "doll-figure-1",
+    "title": "Figure — The Dreamer",
+    "thumbnail": "",
+    "images": [],
+    "description": "A contemplative figure sculpted from air-dry clay and dressed in hand-sewn linen garments. The facial features are intentionally minimal, inviting the viewer to project their own emotions.",
+    "details": {
+      "year": "2025",
+      "dimensions": "28 × 10 × 8 cm",
+      "material": "Air-dry clay, linen, cotton"
+    }
+  },
+  {
+    "id": "doll-figure-2",
+    "title": "Figure — The Wanderer",
+    "thumbnail": "",
+    "images": [],
+    "description": "A standing figure with articulated joints, wearing layers of naturally dyed fabrics. The posture suggests movement and curiosity.",
+    "details": {
+      "year": "2025",
+      "dimensions": "32 × 12 × 10 cm",
+      "material": "Paperclay, natural fabrics"
+    }
+  },
+  {
+    "id": "doll-figure-3",
+    "title": "Figure — The Guardian",
+    "thumbnail": "",
+    "images": [],
+    "description": "A protective figure inspired by folklore traditions. Hand-painted features and embroidered details create a sense of warmth and care.",
+    "details": {
+      "year": "2024",
+      "dimensions": "25 × 9 × 7 cm",
+      "material": "Ceramic head, cloth body"
+    }
+  },
+  {
+    "id": "doll-pair-1",
+    "title": "Pair — Day and Night",
+    "thumbnail": "",
+    "images": [],
+    "description": "A pair of complementary figures representing duality. One is dressed in light, airy fabrics while the other wears dark, textured materials.",
+    "details": {
+      "year": "2024",
+      "dimensions": "24 × 8 × 6 cm each",
+      "material": "Paperclay, silk, wool"
+    }
+  },
+  {
+    "id": "doll-miniature-1",
+    "title": "Miniature — Seed",
+    "thumbnail": "",
+    "images": [],
+    "description": "A tiny, nestled figure curled in a seed-like form. Designed to fit in the palm of a hand, it explores themes of potential and rest.",
+    "details": {
+      "year": "2024",
+      "dimensions": "6 × 4 × 4 cm",
+      "material": "Porcelain, wool felt"
+    }
+  },
+  {
+    "id": "doll-figure-4",
+    "title": "Figure — The Listener",
+    "thumbnail": "",
+    "images": [],
+    "description": "A seated figure with an inclined head, as if listening intently. The oversized ears are a playful exaggeration that adds character and whimsy.",
+    "details": {
+      "year": "2023",
+      "dimensions": "20 × 10 × 12 cm",
+      "material": "Air-dry clay, cotton, thread"
+    }
+  }
+]
