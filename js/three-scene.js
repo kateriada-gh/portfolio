@@ -59,7 +59,7 @@ export function initThreeScene(container) {
   const hasPointer = window.matchMedia("(pointer: fine)").matches;
 
   const cameraHeight = hasPointer ? 6 : 6;
-  const cameraDist = hasPointer ? -60 : -100;
+  const cameraDist = hasPointer ? -60 : -90;
 
   Promise.all([
     loadModel("models/head.obj", "models/head.webp"),

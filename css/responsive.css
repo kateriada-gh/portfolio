@@ -33,9 +33,9 @@
     gap: 24px;
     padding: 20px 0;
     background: var(--color-header-bg);
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
-    border-bottom: 1px solid var(--color-border);
+    /* backdrop-filter: blur(16px); */
+    /* -webkit-backdrop-filter: blur(16px); */
+    /* border-bottom: 1px solid var(--color-border); */
     opacity: 0;
     visibility: hidden;
     transform: translateY(-8px);
@@ -48,8 +48,14 @@
     transform: translateY(0);
   }
 
-  .header__nav a {
-    font-size: 2.2rem;
+  .header__nav a,
+  .home-nav a {
+    font-size: 1.6rem;
+  }
+
+  .home-nav {
+    column-gap: 24px;
+    padding: 28px 20px 40px;
   }
 
   .threejs-container {
@@ -87,5 +93,9 @@
 
   .container {
     padding: 0 16px;
+  }
+
+  .home-nav {
+    padding: 24px 16px 36px;
   }
 }

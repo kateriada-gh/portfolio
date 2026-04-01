@@ -1,7 +1,19 @@
 document.addEventListener("DOMContentLoaded", () => {
+  setHeaderBackFromCategory();
   initBurgerMenu();
   loadItem();
 });
+
+function setHeaderBackFromCategory() {
+  const back = document.querySelector(".header__back");
+  if (!back) return;
+  const category = new URLSearchParams(window.location.search).get("category");
+  if (category && /^[a-z0-9-]+$/i.test(category)) {
+    back.setAttribute("href", `${category}.html`);
+  } else {
+    back.setAttribute("href", "index.html");
+  }
+}
 
 function initBurgerMenu() {
   const burger = document.querySelector(".header__burger");
@@ -19,6 +31,14 @@ function initBurgerMenu() {
       nav.classList.remove("open");
     });
   });
+
+  const headerBack = document.querySelector(".header__back");
+  if (headerBack) {
+    headerBack.addEventListener("click", () => {
+      burger.classList.remove("active");
+      nav.classList.remove("open");
+    });
+  }
 }
 
 async function loadItem() {
@@ -99,12 +119,6 @@ function capitalize(str) {
 function showError(message) {
   const content = document.querySelector(".item-page .container");
   if (content) {
-    content.innerHTML = `
-      <a href="index.html" class="item-back">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
-        Back
-      </a>
-      <p style="text-align:center; color: var(--color-text-secondary); padding: 60px 0;">${message}</p>
-    `;
+    content.innerHTML = `<p style="text-align:center; color: var(--color-text-secondary); padding: 60px 0;">${message}</p>`;
   }
 }

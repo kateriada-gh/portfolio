@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Item — Portfolio</title>
+    <title>Ceramics — Portfolio</title>
     <link rel="icon" href="images/ui/logo.png" type="image/png" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
@@ -22,30 +22,21 @@
         <a href="contact.html">contact</a>
       </nav>
       <button class="header__burger" aria-label="Menu">
-        <img src="images/ui/burger-1.png" alt="">
-        <img src="images/ui/burger-2.png" alt="">
-        <img src="images/ui/burger-3.png" alt="">
+        <img src="images/ui/burger-1.png.webp" alt="" />
+        <img src="images/ui/burger-2.png.webp" alt="" />
+        <img src="images/ui/burger-3.png.webp" alt="" />
       </button>
     </header>
 
     <div class="page-body">
       <main class="main">
-        <section class="item-page">
+        <section id="ceramics" class="section">
           <div class="container">
-            <div class="item-layout">
-              <div class="item-gallery">
-                <div id="item-main-image" class="item-gallery__main">
-                  <div class="placeholder-img">Loading...</div>
-                </div>
-                <div id="item-thumbs" class="item-gallery__thumbs"></div>
-              </div>
-
-              <div class="item-info">
-                <h1 id="item-title" class="item-info__title"></h1>
-                <p id="item-description" class="item-info__description"></p>
-                <dl id="item-details" class="item-details"></dl>
-              </div>
+            <div class="section__header">
+              <h2 class="section__title">Ceramics</h2>
+              <p class="section__subtitle">Handmade vessels, sculptures, and functional pieces</p>
             </div>
+            <div id="ceramics-grid" class="cards-grid"></div>
           </div>
         </section>
       </main>
@@ -57,6 +48,9 @@
       </footer>
     </div>
 
-    <script type="module" src="js/item-page.js"></script>
+    <script type="module">
+      import { initSiteCommon } from "./js/site-common.js";
+      initSiteCommon();
+    </script>
   </body>
 </html>
